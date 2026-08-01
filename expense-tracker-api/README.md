@@ -27,15 +27,23 @@ tests/
 # Installation
 
 ```bash
-# example - substitute with actualinstallation instructions
 python -m venv venv
-source venv\Scripts\activate
+
+**Windows command Prompt(cmd)
+```bash
+venv\Scripts\activate
+```
+**Windows (Powershell)
+```bash
+.venv\Scripts\Activate.ps1  
+```
+
+```bash
 pip install -r requirements.txt
 ```
 # Running
 
 ```bash
-# example - substitute with actual command
 uvicorn src.main:app --reload
 ```
 
