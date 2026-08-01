@@ -8,7 +8,7 @@ Category summary logic – AI-generated, cross-validated totals with manual calc
 Tests – initial set provided by AI, added a few more test cases myself
 README – written by me, with minor adjustments from AI to improve formatting
 
-## 2. What was validated/tested/refactored by me and wh
+## 2. What was validated/tested/refactored by me and why
 I cross-validated category totals by manually calculating the expected totals for three expenses in two categories before trusting the automated tests.
 I re-ran the installation, start, and test commands from README to ensure that they work on a fresh clone of the repository.
 Set up the project and development environment locally.
